@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200svh;
+  font-family: Lexend Deca;
+  background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+  font-family: Big Shoulders Display;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  max-width: 100%;
+  margin-bottom: 80px;
+  line-height: 25px;
+}
+
+.card-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px;
+  overflow:hidden;
+}
+
+.card-orange, .card-cyan, .card-green {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  max-width: 230px;
+  padding: 40px;
+}
+
+.card-orange {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-green {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.call-to-action {
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 40px;
+  color:hsl(31, 77%, 52%);
+  min-width: 120px;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+}
+.card-green .call-to-action {
+  color: hsl(179, 100%, 13%);
+}
+
+.card-cyan .call-to-action {
+  color: hsl(184, 100%, 22%);
+}
+
+.call-to-action:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  padding: 15px;
+  background: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  margin: 20px;
+}
